@@ -65,7 +65,7 @@
 
                             </div>
 
-                            {{-- {{ $activityDescription }} --}}
+                            {{ $activityDescription }}
 
                         </div>
 

@@ -18,9 +18,9 @@
                     class="text-base font-semibold leading-6 fi-timeline-section-header-heading text-gray-950 dark:text-white">
                     {{ $heading }}
                 </h3>
-                <p class="text-sm text-gray-500 fi-timeline-section-header-description dark:text-gray-400">
+                {{-- <p class="text-sm text-gray-500 fi-timeline-section-header-description dark:text-gray-400">
                     {{ $description }}
-                </p>
+                </p> --}}
             </div>
         </header>
     @endif
