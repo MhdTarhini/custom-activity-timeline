@@ -65,14 +65,14 @@
 
                             </div>
 
-                            {{ $activityDescription }}
+                            {{-- {{ $activityDescription }} --}}
 
                         </div>
 
                     </div>
                 </div>
             @endforeach
-
+{{-- 
             <div x-show="totalShowItemsCount < childItemsCount">
                 @php
                     $icon = $getShowItemsIcon();
@@ -83,7 +83,7 @@
                     class="ms-1.5 cursor-pointer hover:underline">
                     {{ $label }}
                 </x-filament::link>
-            </div>
+            </div> --}}
 
         </div>
     @else
